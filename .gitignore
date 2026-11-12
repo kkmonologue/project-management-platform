@@ -1,0 +1,11 @@
+# people data with real e-mail addresses / employee numbers: keep out of git
+欧洲售后员工库*.xlsx
+~$*
+roster_template.csv
+supabase/roster_import.sql
+supabase/roster_refresh.sql
+supabase/first_user.sql
+# secrets (the web folder ignores its own config.js and the build outputs dist/ import/)
+*.env
+.env*
+**/service_role*
